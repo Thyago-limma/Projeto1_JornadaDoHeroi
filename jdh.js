@@ -47,7 +47,7 @@ do {
 
 console.log();
 
-console.log('Link Conseguiu a Terceira Jóia que Estava na Sla de Tortura?');
+console.log('Link Conseguiu a Terceira Jóia que Estava na Sala de Tortura?');
 
 pergunta = prompt('sim ou não?');
 console.clear();
@@ -63,7 +63,7 @@ do {
     respostas++;
   }
 
-console.log('Link Pegou a Quarta Jóia que Estava no Desfiladeiro de Larvas?');
+console.log('Link Pegou a Quarta Jóia que Estava no Desfiladeiro de Lavas?');
 
 pergunta = prompt('sim ou não?');
 console.clear();
@@ -79,7 +79,7 @@ do {
     respostas++;
   }
 
-console.log('Link Conseguiu a Quinta Jóia Que EStava na Escadaria para a Saída do Inferno?');
+console.log('Link Conseguiu a Quinta Jóia Que Estava na Escadaria para a Saída do Inferno?');
 
 pergunta = prompt('sim ou não?');
 console.clear();
@@ -95,28 +95,27 @@ do {
     respostas++;
   }
 
-
-  console.log('Nosso Guerreiro Completou Enfrentou Vários Desafios em Busca de Vingança: '
-  );
   
   console.clear();
 
 
   if (respostas === 5) {
-    console.log('Link Concluiu Seu Objetivo,Completando Assim sua Vingança e Sabendo que o Seu Carrasco Agora Sofreria Tudo o que Ele Sofreu');
+    console.log(`Link Concluiu Seu Objetivo,Completando Assim sua Vingança
+    e Sabendo que o Seu Carrasco Agora Sofreria Tudo o que Ele Sofreu`);
   } else if (respostas === 4) {
-      console.log('Link Conseguiu Escapar do Inferno, E Ter Sua Vingança,Mas Vai Ser Sempre Atormentado Pelo Espirito daquele que Ele Matou.');
+      console.log(`Link Conseguiu Escapar do Inferno, E Ter Sua Vingança,
+      Mas Vai Ser Sempre Atormentado Pelo Espirito daquele que Ele Matou.`);
   }else if (respostas === 3) {
-      console.log(`Mesmo Lutando e Usando Todas as Suas Artimanhas Link Conseguiu Sair do Inferno,
+      console.log(`Mesmo Ferido e Usando Todas as Suas Artimanhas Link Conseguiu Sair do Inferno,
       Mas Não Conseguiu Concluir Sua Vingança.
-      Sendo Assim Condenado a Vagar Pela Terra Como um Espirito Vingativo.`);
+      Sendo Assim Condenado a Vagar Pela Terra Atormentado pelas Lembranças do que viveu.`);
   }else if (respostas === 2 || respostas ===1) {
       console.log(`Link fez de Tudo pra Sair e Concluir Sua Vingança,
-      Mas Lutando Contra Todos os Obstáculos Você Percebeu que Não Valia a Pena se Vingar e Assim Buscou Redenção.
+      Mas Lutando Contra Todos os Obstáculos Ele Percebeu que Não Valia a Pena se Vingar e Assim Buscou Redenção.
       Continua Morto,Mas Agora em Um Lugar Melhor`);
   }else if (respostas === 0) {
       console.log(`Link Não Estava Preparado para Lutar e Conseguir as Jóias que lhe Tirassem de Onde Ele Estava.
-      Assim, Tendo Que Viver num Mundo de Torturas Físicas e PSicologica, Por Toda Eternidade.`)
+      Assim, Tendo Que Viver num Mundo de Torturas Físicas e Psicologicas, Por Toda Eternidade.`)
   }
 
 
